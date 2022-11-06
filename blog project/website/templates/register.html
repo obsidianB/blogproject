@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration page</title>  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--header starts.
+    it contains profile picture and link to other pages-->
+    <div class="header">
+        <img src="images/boring_Headshot.jpg" class="user_avatar" alt="Tayo">
+        <a href="about_me.html">   
+            </a><span class="material-icons">
+                home
+            </span>
+        </a>
+
+        <a href="contact.html">
+            <span class="material-icons">
+                contact_support
+                </span>
+        </a>
+        <a href="register.html">
+            <span class="material-icons">
+                app_registration
+             </span>
+        </a>
+        <a href="login.html">
+            <span class="material-icons">
+                login
+                </span>
+        </a>
+
+    </div>
+    <!--header ends-->
+    <!--body begins-->
+    <div class="named_later">
+        <form method="post">
+            <b class="heading">First Name</b> <br>
+            <input required type="text" placeholder="your first name e.g omotayo" class="input_boxes">
+        </form>
+        <form>
+            <b class="heading">Last Name</b> <br>
+            <input required type="text" placeholder="your surname e.g Ogunsote" class="input_boxes" >
+        </form>
+        <form method="post">
+            <b class="heading">Phone Number</b> <br>
+            <input required type="tel"  class="input_boxes">
+        </form>
+        <!--gemder-->
+        <label class="heading">
+            <b>Gender</b>
+        </label> <br>
+        <select  required class="input_boxes">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="other">Other</option>
+        </select>
+
+        <form method="post">
+            <b class="heading">country</b> <br>
+            <input required type="text" class="input_boxes">
+        </form>
+        <!--state/province-->
+        <label required for="state/province" class="heading">
+           <b> State/Province </b>
+        </label> <br>
+        <select name="state/province" class="input_boxes">
+            <option value="Abia">Abia</option>
+            <option value="Adamawa"> Adamawa</option>
+            <option value="Akwa-ibom"> Akwa-ibom</option>
+            <option value="Anambra">Anambra</option>
+            <option value="Lagos">Lagos</option>
+            <option value="Ogun">Ogun</option>
+            <option value="Osun">Osun</option>
+            <option value="Oyo">oyo</option>
+        </select>
+
+        <form method="post">
+            <b class="heading">Username</b> <br>
+            <input type="text" class="input_boxes" >
+        </form>
+        <label for="password" class="heading"><b>Password</b></label>
+        <br>
+        <input class="input_boxes" type="password">
+        <form >
+        <form method="post" >
+            <b class="heading">Confirm Password</b> <br>
+            <input type="password" class="input_boxes" >
+        </form>
+        <input type="submit" class="input_boxes">
+    </div>
+    
+</body>
+</html>

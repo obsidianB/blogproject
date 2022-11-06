@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--header starts.
+    it contains profile picture and link to other pages-->
+    <div class="header">
+        <img src="images/boring_Headshot.jpg" class="user_avatar" alt="Tayo">
+        <a href="about_me.html">   
+            </a><span class="material-icons">
+                home
+            </span>
+        </a>
+
+        <a href="contact.html">
+            <span class="material-icons">
+                contact_support
+                </span>
+        </a>
+        <a href="register.html">
+            <span class="material-icons">
+                app_registration
+             </span>
+        </a>
+        <a href="login.html">
+            <span class="material-icons">
+                login
+                </span>
+        </a>
+
+    </div>
+    <!--header ends-->
+    <!--body begins-->
+    <div class="body">
+        <form method="post">
+            <b class="heading">first name</b> <br>
+            <input required type="text" placeholder="first name" class="input_boxes">
+        </form>
+        <form method="post">
+            <b class="heading">last name</b> <br>
+            <input type="text" placeholder="last name" class="input_boxes">
+        </form>
+        <form method="post">
+            <b class="heading">username</b> <br>
+            <input type="text" 
+                placeholder="username"
+                class="input_boxes">
+        </form>
+        <form method="post">
+            <b class="heading">Email</b> <br>
+            <input type="text" id="email" name="email" placeholder="example@gmail.com" class="input_boxes">
+        </form>
+        <form method="post">
+            <b class="heading">Password</b> <br>
+            <input type="password" id="password" class="input_boxes">
+        </form>
+        <button class="heading" type="submit">Login</button>
+    </div>
+    
+</body>
+</html>
